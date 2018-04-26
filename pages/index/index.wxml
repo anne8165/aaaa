@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="index-list">
+    <view class='title'>分类</view>
+    <block wx:for-items='{{list}}' wx:key='{{item.id}}'>
+      <view class='type-list-container' id='{{item.id}}' bindtap="kindToggle">
+        <view class='type-list'>{{item.name}}</view>
+      </view>
+      <view class="{{item.open ? 'type-list-down' : 'type-list-down-hide'}}">
+        111
+      </view> 
+    </block>
+  </view>
+</view>
