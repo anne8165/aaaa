@@ -6,7 +6,7 @@
       <view class='type-list-container' id='{{item.id}}' bindtap="kindToggle">
         <view class='type-list'>{{item.name}}</view>
       </view>
-      <view class="{{item.open ? 'type-list-down' : 'type-list-down-hide'}}">
+      <view class="type-list-down-init {{item.open ? 'type-list-down' : 'type-list-down-hide'}}">
         <block wx:for-items='{{item.pages}}' wx:for-item="page" wx:key='{{*item}}'>
           <navigator url="pages/{{page}}/{{page}}">
             <view class='type-list-inner'>{{page}}</view>

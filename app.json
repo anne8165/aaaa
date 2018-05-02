@@ -2,7 +2,8 @@
   "pages": [
     "pages/component/index",
     "pages/logs/logs",
-    "pages/component/pages/view/view"
+    "pages/component/pages/view/view",
+    "pages/component/pages/scroll-view/scroll-view"
     
   ],
   "window": {
