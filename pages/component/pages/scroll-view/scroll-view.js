@@ -22,6 +22,26 @@ Page({
         break
       }
     }
+    // 选择图片
+    // wx.chooseImage({
+       
+    // })
+    // wx.connectSocket({
+    //   url: 'test.php'
+    // })
+    // wx.onSocketOpen(function (res) {
+    //   console.log('WebSocket连接已打开！')
+    // })
+    // wx.onSocketError(function (res) {
+    //   console.log('WebSocket连接打开失败，请检查！')
+    // })
+
+    // wx.scanCode({
+    //   onlyFromCamera: true,
+    //   success: (res) => {
+    //     console.log(res)
+    //   }
+    // })
   },
   tapMove: function (e) {
     this.setData({
