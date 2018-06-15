@@ -1,0 +1,46 @@
+<view>
+  <view class="section">
+    <view class="section__title">Swiper</view>
+    <view>
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for-items="{{imgUrls}}" wx:key='{{item}}'>
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width='100%' />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view>
+      <view class='swiper-ope'>
+        <view class='ope-l'>指示点</view>
+        <view class='ope-r'>
+          <switch checked bindchange="switchChange" />
+        </view>
+      </view>
+      <view class='swiper-ope'>
+        <view class='ope-l'>自动轮播</view>
+        <view class='ope-r'>
+          <switch checked bindchange="switch1Change" />
+        </view>
+      </view>
+    </view>
+    <view class='control-time'>
+      <view class='control'>
+        <view class='tit'>
+          <view class='left'>自动播放间隔时长</view>
+          <view class='info'>{{interval}}</view>
+          <view></view>
+        </view>
+        <slider bindchange="sliderTopChange" step="5" min='0' max='5000' value='{{interval}}' />
+      </view>
+      <view class='control'>
+        <view class='tit'>
+          <view class='left'>幻灯片切换时长</view>
+          <view class='info'>{{duration}}</view>
+          <view></view>
+        </view>
+        <slider bindchange="sliderBotChange" step="5" min='0' max='1000' value='{{duration}}' />
+      </view>
+    </view>
+  </view>
+</view>

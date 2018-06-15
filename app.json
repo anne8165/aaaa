@@ -3,13 +3,13 @@
     "pages/component/index",
     "pages/logs/logs",
     "pages/component/pages/view/view",
-    "pages/component/pages/scroll-view/scroll-view"
-    
+    "pages/component/pages/scroll-view/scroll-view",
+    "pages/component/pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "#333",
     "navigationBarBackgroundColor": "#1a9bd2",
-    "navigationBarTitleText": "第一个小程序11111",
+    "navigationBarTitleText": "第一个小程序",
     "navigationBarTextStyle": "white"
   }
 }

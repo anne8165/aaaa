@@ -1,0 +1,43 @@
+/* pages/component/pages/swiper/swiper.wxss */
+
+.slide-image {
+  width: 100%;
+}
+
+.swiper-ope {
+  background: #ddd;
+  margin-top: 10px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+}
+
+.ope-l {
+  float: left;
+}
+
+.ope-r {
+  float: right;
+}
+
+.control-time {
+  padding: 10px;
+}
+
+.control-time .control {
+  height: 60px;
+}
+
+.control-time .control .tit {
+  height: 26px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.control-time .left {
+  float: left;
+}
+
+.control-time .info {
+  float: right;
+}
